@@ -1,0 +1,10 @@
+[package]
+name = "voxel-game-engine"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.105"
+env_logger = "0.11.12"
+log = "0.4.35"
+pollster = "1.0.3"
