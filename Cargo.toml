@@ -1,10 +1,17 @@
 [package]
-name = "voxel-game-engine"
+name = "voxel_game_engine"
 version = "0.1.0"
 edition = "2024"
+rust-version = "1.100"
+description = "A game engine for infinite voxel worlds"
+repository = "https://github.com/maxcaplan/voxel-game-engine.git"
+license-file = "LICENSE"
+categories = ["game-engines", "graphics", "rendering", "voxels"]
 
 [dependencies]
 anyhow = "1.0.105"
 env_logger = "0.11.12"
 log = "0.4.35"
 pollster = "1.0.3"
+wgpu = "30.0.2"
+winit = "0.30.13"
